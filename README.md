@@ -133,4 +133,67 @@ Player 1 col: 2
 
 ## 🎮 Gameplay Flow
 
-1. Player 1
+1. Player 1 (X) starts the game.
+2. Player 2 (O) takes the next turn.
+3. Players alternate turns.
+4. The board updates after every move.
+5. The game ends when:
+
+   * A player wins
+   * All 9 moves are filled (draw)
+
+---
+
+## 🧪 Example Board
+
+```
+ X  O  .
+ .  X  .
+ O  .  X
+```
+
+`.` indicates an empty cell.
+
+---
+
+## 📚 Learning Outcomes
+
+Through this project, the following concepts were practiced:
+
+* Designing simple game logic
+* Working with 2D lists in Python
+* Validating user input
+* Detecting game states
+* Structuring CLI applications
+
+---
+
+## 🚀 Possible Future Improvements
+
+Possible upgrades for this project include:
+
+* Add **single-player mode with AI**
+* Add **graphical interface (Tkinter or Pygame)**
+* Improve board rendering
+* Refactor repeated code into reusable functions
+* Add unit tests for win detection
+
+---
+
+## 🏁 Conclusion
+
+This project is a small but effective demonstration of how basic programming concepts can be used to build an interactive game. It serves as a good starting point for learning game logic and CLI-based application design in Python.
+## 🛠️ Development Status
+
+This project currently provides a **fully functional CLI (Command Line Interface) version** of the Tic Tac Toe game.
+
+A **graphical frontend version is currently under development** and will be introduced in a separate **`dev` branch** in future updates.
+
+Planned improvements include:
+
+* Graphical user interface (GUI)
+* Improved game board visualization
+* Better input handling and validation
+* Possible single-player mode
+
+The CLI version will remain as the **core logic implementation**, while the GUI version will focus on improving the user experience.
